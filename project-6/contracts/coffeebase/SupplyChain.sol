@@ -161,7 +161,7 @@ contract SupplyChain {
       {
         sku: sku, 
         upc: _upc, 
-        ownerID: msg.sender, 
+        ownerID: owner, 
         originFarmerID: _originFarmerID, 
         originFarmName: _originFarmName, 
         originFarmInformation: _originFarmInformation, 
@@ -307,6 +307,7 @@ contract SupplyChain {
     itemSKU = items[_upc].sku;
     itemUPC = items[_upc].upc;
     ownerID = items[_upc].ownerID;
+    originFarmName = items[_upc].originFarmName;
     originFarmerID = items[_upc].originFarmerID;
     originFarmInformation = items[_upc].originFarmInformation;
     originFarmLatitude = items[_upc].originFarmLatitude;
