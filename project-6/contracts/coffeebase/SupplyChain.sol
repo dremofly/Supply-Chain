@@ -253,8 +253,8 @@ contract SupplyChain {
     // Call modifier to verify caller of this function
     verifyCaller(items[_upc].distributorID)
     {
-    // Update the appropriate fields
-      items[_upc].itemState = State.Shipped;
+    // Update the appro tate = State.Shipped;
+    items[_upc].itemState = State.Shipped;
     // Emit the appropriate event
       emit Shipped(_upc);
   }

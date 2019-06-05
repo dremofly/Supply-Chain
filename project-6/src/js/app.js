@@ -24,7 +24,7 @@ App = {
     },
 
     readForm: function () {
-        App.sku = $("#sku").val();
+        App.sku = $("#sku").val();  // #表示id选择
         App.upc = $("#upc").val();
         App.ownerID = $("#ownerID").val();
         App.originFarmerID = $("#originFarmerID").val();
@@ -71,10 +71,13 @@ App = {
         // Legacy dapp browsers...
         else if (window.web3) {
             App.web3Provider = window.web3.currentProvider;
+            console.log("Injected")
         }
         // If no injected web3 instance is detected, fall back to Ganache
         else {
-            App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
+            console.log("provider")
+            // 改变地址
+            App.web3Provider = new Web3.providers.HttpProvider('http://localhost:8545');
         }
 
         App.getMetaskAccountID();

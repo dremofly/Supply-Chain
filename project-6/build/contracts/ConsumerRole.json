@@ -2895,6 +2895,52 @@
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {
+        "0x28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee07142": {
+          "constant": true,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "name": "ConsumerAdded",
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "event",
+          "anonymous": false,
+          "signature": "0x28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee07142"
+        },
+        "0xe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f098": {
+          "constant": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "name": "ConsumerRemoved",
+          "outputs": [],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "event",
+          "anonymous": false,
+          "signature": "0xe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f098"
+        }
+      },
+      "links": {},
+      "address": "0x0A7a57337BcdFa42B9aEBBf1d7049bB9b18Cee2E",
+      "transactionHash": "0x8dec9fd2a52e09a41506943c26ad5f9b1066ba942580ba77f00692daa11f84b7"
+    },
     "1559631998269": {
       "events": {},
       "links": {},
@@ -2906,10 +2952,62 @@
       "links": {},
       "address": "0xC9Cdfd62EbB837915A3F16359e4d38b61DeA63f6",
       "transactionHash": "0x6cfcf34aa46f7c170313aae3f73280f30403618bccccae468997321e867365e5"
+    },
+    "1559651330504": {
+      "events": {},
+      "links": {},
+      "address": "0xe2Df47F958DE9327411ed5A0293e6b79f32D3ED5",
+      "transactionHash": "0x545667269582f7eee5452c867dd03463341e0cbe6e1e408f4f4d64f862e6e07f"
+    },
+    "1559719771403": {
+      "events": {
+        "0x28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee07142": {
+          "constant": true,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "name": "ConsumerAdded",
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "event",
+          "anonymous": false,
+          "signature": "0x28b26e7a3d20aedbc5f8f2ebf7da671c0491723a2b78f47a097b0e46dee07142"
+        },
+        "0xe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f098": {
+          "constant": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "name": "ConsumerRemoved",
+          "outputs": [],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "event",
+          "anonymous": false,
+          "signature": "0xe3f5ed5f263f1f01764a96edfc7d025f511ec5f7d180e8816908b78bcf74f098"
+        }
+      },
+      "links": {},
+      "address": "0xC52aD17577a8E3b975a06B90C6e63fa4F4f31F77",
+      "transactionHash": "0xb08a4729f621ee606fe88f1810d66b46b05212eb11bdce9d99119f4833622b67"
     }
   },
   "schemaVersion": "3.0.9",
-  "updatedAt": "2019-06-04T08:37:24.994Z",
+  "updatedAt": "2019-06-05T08:51:54.582Z",
   "devdoc": {
     "methods": {}
   },

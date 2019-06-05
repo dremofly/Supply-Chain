@@ -2486,6 +2486,39 @@
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {
+        "0x2e0ded4123377a3c2bc9a26f1717655a129e2f20752924d42e730ec89c83dbd0": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "FarmerAdded",
+          "type": "event",
+          "signature": "0x2e0ded4123377a3c2bc9a26f1717655a129e2f20752924d42e730ec89c83dbd0"
+        },
+        "0xa5e0f060af304ab17dd418c7927e3da3ae7868189bf387aee09ab179ccc572f2": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "FarmerRemoved",
+          "type": "event",
+          "signature": "0xa5e0f060af304ab17dd418c7927e3da3ae7868189bf387aee09ab179ccc572f2"
+        }
+      },
+      "links": {},
+      "address": "0x1F1065cDF4a03d3cb4e97cF3C44b3dDB04b7Afa8",
+      "transactionHash": "0x2eceee135d56fa2330a81d1c7c324bedc330ca01e4c33570e8d99dffef0a3e6d"
+    },
     "1559631998269": {
       "events": {},
       "links": {},
@@ -2497,10 +2530,49 @@
       "links": {},
       "address": "0xa8ED03dDA6c814833D263830FD5118047036d8a0",
       "transactionHash": "0xec5a8884ee2cdc1b3b134c46cd9fc77ab2031efb8537dfdddec48657cbcee1f7"
+    },
+    "1559651330504": {
+      "events": {},
+      "links": {},
+      "address": "0xAB8b899016ce09220d666A82CEe02A6042cd2025",
+      "transactionHash": "0x2d93a3d8c1f7a110ad00d6c8c574590da0eb6e07f39771ab48a05911eb3efe9b"
+    },
+    "1559719771403": {
+      "events": {
+        "0x2e0ded4123377a3c2bc9a26f1717655a129e2f20752924d42e730ec89c83dbd0": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "FarmerAdded",
+          "type": "event",
+          "signature": "0x2e0ded4123377a3c2bc9a26f1717655a129e2f20752924d42e730ec89c83dbd0"
+        },
+        "0xa5e0f060af304ab17dd418c7927e3da3ae7868189bf387aee09ab179ccc572f2": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "FarmerRemoved",
+          "type": "event",
+          "signature": "0xa5e0f060af304ab17dd418c7927e3da3ae7868189bf387aee09ab179ccc572f2"
+        }
+      },
+      "links": {},
+      "address": "0x0125f4766d34F56AdE35d36d93bdf84f8B0F9476",
+      "transactionHash": "0x1449b86b313885978d80f4850a221644a096c5e542615bc21283df09720a3889"
     }
   },
   "schemaVersion": "3.0.9",
-  "updatedAt": "2019-06-04T08:37:24.940Z",
+  "updatedAt": "2019-06-05T08:51:54.525Z",
   "devdoc": {
     "methods": {}
   },
