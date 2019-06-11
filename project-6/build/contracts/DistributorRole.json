@@ -2941,6 +2941,52 @@
       "address": "0x966d4330B895E2c72813f806053538B80C6C1c03",
       "transactionHash": "0xd822664c766d90486f7ba537e5a76d2fb1692b52d722cea147bd6d3a8ce2cf6e"
     },
+    "5777": {
+      "events": {
+        "0xddbf200aa634dc3fb81cfd68583dd1040d1c751d335e1d86b631bde3e977fea8": {
+          "constant": true,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "name": "DistributorAdded",
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "event",
+          "anonymous": false,
+          "signature": "0xddbf200aa634dc3fb81cfd68583dd1040d1c751d335e1d86b631bde3e977fea8"
+        },
+        "0x126174f6cf49c81cdb4a9214c6b8f037bef55b4ec31e4fc776cea2a1c8a88d59": {
+          "constant": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "name": "DistributorRemoved",
+          "outputs": [],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "event",
+          "anonymous": false,
+          "signature": "0x126174f6cf49c81cdb4a9214c6b8f037bef55b4ec31e4fc776cea2a1c8a88d59"
+        }
+      },
+      "links": {},
+      "address": "0xf3eB147c37077eEEC70E15ce6831559736B5ba8f",
+      "transactionHash": "0xc30fdcf2a3d18d02f2d52c51fd02518b961d36d093580b9e605eafcce83c31e5"
+    },
     "1559631998269": {
       "events": {},
       "links": {},
@@ -3007,7 +3053,7 @@
     }
   },
   "schemaVersion": "3.0.9",
-  "updatedAt": "2019-06-05T08:51:54.541Z",
+  "updatedAt": "2019-06-11T12:13:43.004Z",
   "devdoc": {
     "methods": {}
   },

@@ -2939,6 +2939,52 @@
       "address": "0xa67dF36f882CC80855AE709123d508549656E8b8",
       "transactionHash": "0x9b4e5d00e3b40b22aef803681d4fc0efff53e26a489ee738ce05339b559f0835"
     },
+    "5777": {
+      "events": {
+        "0x71ae26cad02663e3d92efd6ec56031a80d74a20c0ab4183faa8bf262261c9baa": {
+          "constant": true,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "name": "RetailerAdded",
+          "outputs": [
+            {
+              "name": "",
+              "type": "bool"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "event",
+          "anonymous": false,
+          "signature": "0x71ae26cad02663e3d92efd6ec56031a80d74a20c0ab4183faa8bf262261c9baa"
+        },
+        "0xdb7176e79cffef81cb01767dd0447a0b24bb72ca9778d4b245581086b2a7e6db": {
+          "constant": false,
+          "inputs": [
+            {
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "name": "RetailerRemoved",
+          "outputs": [],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "event",
+          "anonymous": false,
+          "signature": "0xdb7176e79cffef81cb01767dd0447a0b24bb72ca9778d4b245581086b2a7e6db"
+        }
+      },
+      "links": {},
+      "address": "0xEf959304EeeFA21Df62ac44a2363FC4E3A51815b",
+      "transactionHash": "0x5684e52101fc5608e0156a9ec671c2a3bfa28afb8d43a24300af15ab9af81b45"
+    },
     "1559631998269": {
       "events": {},
       "links": {},
@@ -3005,7 +3051,7 @@
     }
   },
   "schemaVersion": "3.0.9",
-  "updatedAt": "2019-06-05T08:51:54.560Z",
+  "updatedAt": "2019-06-11T12:13:43.021Z",
   "devdoc": {
     "methods": {}
   },
