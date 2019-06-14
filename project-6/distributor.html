@@ -29,10 +29,15 @@
             <button class="btn-ship" id="button" type="button" data-id="6">Ship</button>
 
         </div>
-    <div style="text-align: center;" id="ftc-harvest">
-            <a href="./index.html">home</a>
-     
-    </div>
+        <div style="text-align: center;" id="ftc-harvest">
+                <button type="button" onclick="jump()">Home</button>
+         
+        </div>
+        <script>
+            function jump() {
+                window.location.href = "./index.html";
+            }
+        </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- <script src="js/web3.min.js"></script> -->
     <script src="js/truffle-contract.js"></script>

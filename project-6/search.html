@@ -16,14 +16,32 @@
         <p style="text-align: center;">Prove the authenticity of coffee using the Ethereum blockchain.</p>
     </div>
 
-    <div style="text-align: center;" id="ftc-harvest">
-        <button id="button" type="button" data-id="1" >Farmer</button>
- 
+    <div class="container">
+            SKU
+            <br>
+            <input class="input-field" type="number" id="sku" name="sku" value=1><br>
+            UPC
+            <br>
+            <input type="number" id="upc" name="upc" value=1><br>
+            
+
+            <div class=button-div>
+                    <button class="btn-fetchOne" id="button" type="button" data-id="9">Fetch Data 1</button>
+                    <button class="btn-fetchTwo" id="button" type="button" data-id="10">Fetch Data 2</button>
+                </div>
+    </div>
+    <div type="container">
+        <p>The result can be seen in the console</p>
     </div>
     <div style="text-align: center;" id="ftc-harvest">
-            <a href="./index.html">home</a>
+            <button type="button" onclick="jump()">Home</button>
      
     </div>
+    <script>
+        function jump() {
+            window.location.href = "./index.html";
+        }
+    </script> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- <script src="js/web3.min.js"></script> -->
     <script src="js/truffle-contract.js"></script>
